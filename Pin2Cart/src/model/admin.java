@@ -29,7 +29,7 @@ public class admin extends User {
 
         for (Product product : products) {
             if (product.isFlagged()) {
-                System.out.println(product);
+                System.out.println(product);	
                 anyFlagged = true;
             }
         }
